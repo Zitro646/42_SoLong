@@ -6,7 +6,7 @@
 /*   By: mortiz-d <mortiz-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/05 12:17:45 by mortiz-d          #+#    #+#             */
-/*   Updated: 2021/11/16 15:57:14 by mortiz-d         ###   ########.fr       */
+/*   Updated: 2022/02/14 15:15:43 by mortiz-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ char	*ft_strnstr(const char *haystack, const char *needle, size_t len)
 		{
 			aux4 = 0;
 			while ((haystack[aux3 + aux4] == needle[aux4]) && \
-			 (needle[aux4] != '\0') && (aux3 + aux4) < len)
+				(needle[aux4] != '\0') && (aux3 + aux4) < len)
 				aux4++;
 			if (needle[aux4] == '\0')
 				return (&((char *)haystack)[aux3]);

@@ -6,11 +6,12 @@
 /*   By: mortiz-d <mortiz-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/12/17 09:11:14 by mortiz-d          #+#    #+#             */
-/*   Updated: 2021/12/20 13:50:53 by mortiz-d         ###   ########.fr       */
+/*   Updated: 2022/02/14 15:14:44 by mortiz-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
 int	ft_count_list(int *list)
 {
 	int	i;

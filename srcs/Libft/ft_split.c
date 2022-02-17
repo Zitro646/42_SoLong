@@ -6,7 +6,7 @@
 /*   By: mortiz-d <mortiz-d@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/11/09 17:41:56 by mortiz-d          #+#    #+#             */
-/*   Updated: 2021/11/16 11:09:51 by mortiz-d         ###   ########.fr       */
+/*   Updated: 2022/02/14 15:15:21 by mortiz-d         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ static char	**make_array(char **array, char const *s, char c);
 char	**ft_split(char const *s, char c)
 {
 	char	**aux1;
-	
+
 	if (s == NULL)
 		return (0);
 	aux1 = ft_calloc(sizeof(char *), partscount(s, c) + 1);
